@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width:100%;
+    height:100%;
+    background-color: rgb(0, 36, 135);
+}
+.heading{
+    width:100%;
+    color:papayawhip;
+    text-align: center;
+    background-color: rgb(0, 0, 160);
+    padding:1vh 0em;
+}
+
+#form-box{
+    padding:2%;
+    width:50vw;
+    min-height:20vh;
+    margin:2vw auto;
+    border:2px solid rgb(255, 236, 209);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+#form-box form{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+
+}
+#btn{
+    width:40%;
+}
+.name-box{
+    font-size:3.5vw;
+    font-weight: 600;
+    color:papayawhip
+}
